@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  margin: 2%;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+
+.column-count {
+  width: 20%;
+}
+
+.column-amount {
+  width: 20%;
+}
+
+.column-price {
+  width: 20%;
+}
+
+.precision-label {
+  margin-right: 10px;
+  margin-left: 10px;
+}
