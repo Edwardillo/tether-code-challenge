@@ -7,7 +7,6 @@ const bookSlice = createSlice({
   name: "book",
   initialState: {
     data: [],
-    isLoading: false,
     precision: "P0",
   },
   reducers: {
